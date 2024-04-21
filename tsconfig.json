@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "skipLibCheck": true,
+    "paths": {
+      "three/addons/controls/*": ["./node_modules/@types/three/examples/jsm/controls/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

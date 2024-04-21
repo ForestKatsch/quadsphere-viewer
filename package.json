@@ -1,0 +1,19 @@
+{
+  "name": "quadsphere-viewer",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --sourcemap --outfile=dist/bundle.js",
+    "lint:ts": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.163.0",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5"
+  }
+}
